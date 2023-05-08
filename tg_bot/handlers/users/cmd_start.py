@@ -13,7 +13,7 @@ async def cmd_start(msg: types.Message):
             "\n" \
             "If you need help press /help\n" \
             "\n" \
-            "Developed by <a href='https://t.me/'></a>"  
+            "Developed by GIFCOIN<a href='https://t.me/'></a>"  
             
     await msg.answer(text=text, disable_web_page_preview=True, reply_markup=generate_btn(), parse_mode="HTML")
     

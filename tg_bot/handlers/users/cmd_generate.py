@@ -22,7 +22,7 @@ async def func_generate(msg: types.Message, state: FSMContext):
         await state.finish()
     else:
         prompt = msg.text
-        caption = "\n \n<span class='tg-spoiler'>Genereted with: @</span>"
+        caption = "\n \n<span class='tg-spoiler'>Genereted with: GIFCOIN</span>"
 
         await msg.answer("Please wait, generating your image...")
     
